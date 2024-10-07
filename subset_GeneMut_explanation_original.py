@@ -28,7 +28,7 @@ Separate the answer and explanation by &&&.
     prompt = prompt_template.format(single_row=single_row)
 
     client = OpenAI(
-        api_key="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"
+        api_key=""
     )
     response = client.chat.completions.create(
         model="gpt-4o-mini",
